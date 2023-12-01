@@ -2,5 +2,5 @@
 
 bool stub()
 {
-  return true;
+    return true;
 }

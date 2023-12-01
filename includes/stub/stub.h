@@ -1,8 +1,8 @@
 #ifndef STUB_H
 #define STUB_H
 
-#include <iostream>
 #include <iomanip>
+#include <iostream>
 
 using namespace std;
 
