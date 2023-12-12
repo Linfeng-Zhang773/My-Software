@@ -83,5 +83,3 @@ void InputBox::setSize(const sf::Vector2f& size)
 {
     this->box.setSize(size);
 }
-// SnapShot& Box::getSnapshot() {}
-// void Box::applySnapshot(const SnapShot& snapshot) {}

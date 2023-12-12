@@ -16,6 +16,7 @@ public:
     ~Item() = default;
     sf::Text getText();
     sf::RectangleShape getBox();
+    sf::Vector2f getPosition();
     void Initialize(const std::string& name);
     void setSize(const sf::Vector2f& size);
     // void addEventHandler(sf::RenderWindow& window, sf::Event event) override;

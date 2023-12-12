@@ -8,8 +8,12 @@ Item::Item(const std::string& name)
     text.setFillColor(sf::Color::Black);
     // text.setPosition(box.getPosition());
     box.setSize(sf::Vector2f(200, 40)); // Adjust size as needed
-    box.setFillColor(sf::Color::Red);
+    box.setFillColor(sf::Color::White);
 };
+sf::Vector2f Item::getPosition()
+{
+    return this->box.getPosition();
+}
 
 void Item::Initialize(const std::string& name)
 {
@@ -20,7 +24,7 @@ void Item::Initialize(const std::string& name)
     text.setFillColor(sf::Color::Black);
     // text.setPosition(box.getPosition());
     box.setSize(sf::Vector2f(200, 40)); // Adjust size as needed
-    box.setFillColor(sf::Color::Red);
+    box.setFillColor(sf::Color::White);
 }
 
 Item::Item() {}

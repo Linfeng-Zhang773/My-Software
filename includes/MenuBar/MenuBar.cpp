@@ -36,14 +36,14 @@ void MenuBar::draw(sf::RenderTarget& window, sf::RenderStates states) const
 }
 void MenuBar::addEventHandler(sf::RenderWindow& window, sf::Event event)
 {
-     for (int i = 0; i < menuBar.size(); ++i)
+    for (int i = 0; i < menuBar.size(); ++i)
     {
         menuBar[i].addEventHandler(window, event);
     }
 }
 void MenuBar::update()
 {
-     for (int i = 0; i < menuBar.size(); ++i)
+    for (int i = 0; i < menuBar.size(); ++i)
     {
         menuBar[i].update();
     }

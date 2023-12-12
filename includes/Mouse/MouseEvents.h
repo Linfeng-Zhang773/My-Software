@@ -1,5 +1,6 @@
 #ifndef MOSUEEVENTS_H
 #define MOUSEEVENTS_H
+#pragma once
 #include <SFML/Graphics.hpp>
 template <class T>
 class MouseEvents
@@ -14,7 +15,6 @@ public:
 
     // returns true if the mouse is hovered over the object
     static bool hovered(T& object, sf::RenderWindow& window);
-
 
     // this is what I used to determine if a double click or triple click occurred
     // you don't have to use this if you don't want to

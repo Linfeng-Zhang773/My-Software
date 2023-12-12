@@ -23,15 +23,19 @@ void Box::addEventHandler(sf::RenderWindow& window, sf::Event event)
     }
 }
 
+void Box::setSize(sf::Vector2f size)
+{
+    this->box.setSize(size);
+}
 void Box::update()
 {
     if (checkState(HOVERED))
     {
-        box.setFillColor(sf::Color::White);
+        box.setFillColor(sf::Color(230,230,250));
     }
     else
     {
-        box.setFillColor(sf::Color::Blue);
+        box.setFillColor(sf::Color::White);
     }
 }
 
@@ -53,5 +57,3 @@ void Box::setPosistion(const sf::Vector2f& pos)
     this->box.setPosition(pos);
 }
 
-SnapShot& Box::getSnapshot() {}
-void Box::applySnapshot(const SnapShot& snapshot) {}

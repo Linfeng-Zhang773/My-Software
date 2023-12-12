@@ -9,7 +9,7 @@ void Application::addComponent(GUIComponent& component)
 
 void Application::run()
 {
-    sf::RenderWindow window({720, 420}, "Dropdown Menu");
+    sf::RenderWindow window({1220, 920}, "File Simulator");
     window.setFramerateLimit(60);
 
     while (window.isOpen())
@@ -26,7 +26,7 @@ void Application::run()
         {
             g->update();
         }
-        window.clear(sf::Color::Yellow);
+        window.clear(sf::Color::Black);
         for (GUIComponent*& g : components)
         {
             window.draw(*g);

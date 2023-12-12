@@ -1,7 +1,7 @@
 #ifndef MENUBAR_H
 #define MENUBAR_H
-#include "../Menu/Menu.h"
 #include "../GUIcomponent/GUIcomponent.h"
+#include "../Menu/Menu.h"
 #include <vector>
 class MenuBar : public GUIComponent
 {
